@@ -8,6 +8,8 @@ function NavBar() {
       <a href="#home">home</a>
       <a href="#about">about</a>
       <a href="#projects">projects</a>
+    
+    {/* {links.map((link) => (<a href={`/#${link}`} key={link}>{link}</a>))} */}
     </nav>
   );
 }
